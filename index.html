@@ -1,15 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+    <title>Exercícios</title>
+    <script src="exercicios.js" defer></script>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        button {
+            margin-bottom: 15px;
+            padding: 15px 20px;
+            background-color: yellow;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <a href="ex1.html">Exercicio 1</a><br>
-    <a href="ex2.html">Exercicio 2</a><br>
-    <a href="ex3.html">Exercicio 3</a><br>
-    <a href="ex4.html">Exercicio 4</a><br>
-    
+    <h1>Exercícios</h1>
+    <button onclick="ex1()">Exercício 1</button>
+    <button onclick="ex2()">Exercício 2</button>
+    <button onclick="ex3()">Exercício 3</button>
+    <button onclick="ex4()">Exercício 4</button>
 </body>
 </html>
