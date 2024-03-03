@@ -29,6 +29,14 @@ button {
     cursor: pointer;
 }
 
+#insere {
+    background-color: #325bff;
+    color: white;
+    padding: 6px 18px;
+    border: none;
+    cursor: pointer;
+}
+
 footer{
     background-color:black;
     color:white;
